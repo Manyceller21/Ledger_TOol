@@ -4,6 +4,14 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  import { defineConfig } from 'vite'
+import react from '@vitejs/react-vite'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  base: '/ledger-tool/', // <--- ADD THIS EXACT LINE (replace ledger-tool with your exact repository name)
+  plugins: [react()],
+})
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
