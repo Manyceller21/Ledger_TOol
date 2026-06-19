@@ -1,0 +1,6 @@
+{
+  "name": "Financial Statement Ledger Tool",
+  "description": "Process and transform messy semi-structured bank statement documents, parsing complex narratives, transaction references (TXNNO) and amounts into a clean ledger table following exact financial alignment rules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,21 @@
+{
+  "appId": "com.finextract.app",
+  "productName": "FinExtractStudio",
+  "directories": {
+    "output": "dist-desktop"
+  },
+  "files": [
+    "dist/**/*",
+    "electron-main.cjs",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "requestedExecutionLevel": "asInvoker"
+  }
+}
